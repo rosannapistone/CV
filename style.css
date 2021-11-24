@@ -3,26 +3,31 @@
     
 }
 
-body { background-color: pink;}
+body { 
+    background-image: url(./Assets/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
 
 
 .main-container {
     margin-top: 10rem;
     
+    
 }
 
 .profile-view {
-    background-color: aqua;
+    /*background-color: aqua;*/
     height: 35rem;
-    width: 25rem;
+    width: 20rem;
     margin: 1rem;
 }
 
 .heading-info {
-    background-color: rosybrown;
+    /*background-color: rosybrown;*/
     padding-bottom: 2rem;
-    color: pink;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .heading-info p {
@@ -32,23 +37,97 @@ body { background-color: pink;}
 .profile-picture {
     height: 15rem;
     width: 15rem;
-    margin: 2rem;
+    margin-bottom: 1rem;
+}
+
+.linkedin {
+    width: 4rem;
+    height: 4rem;
+}
+
+.heading-info-contact p {
+    margin-left: 1rem;
+
 }
 
 .main-content {
-    background-color: aqua;
+    background-color: rgba(230, 230, 230, 0.289);
     height: auto;
-    width: 45rem;
+    width: 50rem;
     margin: 1rem;
+}
 
+.main-info-profile {
+    padding: 2rem;
+        
+}
+
+.main-info-portfolio {
+    padding: 2rem;
+        
+}
+
+.portfolio-links {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+li {
+    margin-right: 1.5rem;
+}
+
+.main-info-education {
+    padding: 2rem;
+   
+}
+
+.main-info-experience {
+    padding: 2rem;
+   
+}
+
+.main-info-interests {
+    padding: 2rem;    
+}
+
+.main-info-references {
+    padding: 2rem;
+        
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;   
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    padding-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+hr {
+    margin-top: 2rem;
 }
 
 .navigations {
-    background-color: aqua;
     height: 35rem;
     width: 5rem;
     margin: 1rem;
+    
+}
 
+.material-icons {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.icon-profile-image {
+    width: 4rem;
+    margin: 1rem;
 }
 
 
