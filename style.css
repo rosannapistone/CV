@@ -4,7 +4,7 @@
 }
 
 body { 
-    background-image: url(./Assets/background-image.jpg);
+   /* background-image: url(./Assets/background-image.jpg);*/
     background-position: center;
     background-size: cover;
     color: black;
@@ -12,7 +12,7 @@ body {
 
 
 .main-container {
-    margin-top: 10rem;
+    margin-top: 7rem;
     
     
 }
@@ -40,9 +40,16 @@ body {
     margin-bottom: 1rem;
 }
 
+.github {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
 .linkedin {
     width: 4rem;
     height: 4rem;
+    margin-right: 0.3rem;
 }
 
 .heading-info-contact p {
@@ -51,7 +58,7 @@ body {
 }
 
 .main-content {
-    background-color: rgba(230, 230, 230, 0.289);
+    background-color: rgba(167, 187, 196, 0.289);
     height: auto;
     width: 50rem;
     margin: 1rem;
@@ -59,11 +66,13 @@ body {
 
 .main-info-profile {
     padding: 2rem;
-        
+    background-color: rgb(220, 243, 228);
+    border-bottom: whitesmoke solid 0.6rem;
 }
 
 .main-info-portfolio {
     padding: 2rem;
+    background-color: rgb(215, 236, 243);
         
 }
 
@@ -78,12 +87,46 @@ li {
 }
 
 .main-info-education {
-    padding: 2rem;
-   
+    /*padding: 2rem; */ 
+}
+
+.education-1 {
+    background-color: rgb(241, 216, 241);
+    border: whitesmoke 0.6rem solid;
+    height: 6rem;
+    padding: 1.4rem;
+}
+.education-2 {
+    background-color: rgb(241, 216, 241);
+    border-top: whitesmoke 0.6rem solid;
+    border-right: whitesmoke 0.6rem solid;
+    border-bottom: whitesmoke 0.6rem solid;
+    height: 6rem;
+    padding: 1.4rem;
+}
+
+.education-3 {
+    background-color: rgb(241, 216, 241);
+    border-right: whitesmoke 0.6rem solid;
+    border-left: whitesmoke 0.6rem solid;
+    border-bottom: whitesmoke 0.6rem solid;
+    height: 6rem;
+    padding: 1.4rem;
+}
+
+.education-4 {
+    background-color: rgb(241, 216, 241);
+    border-bottom: whitesmoke 0.6rem solid;
+    border-right: whitesmoke 0.6rem solid;
+    border-left: whitesmoke 0.6rem solid;
+    height: 6rem;
+    padding: 1.4rem;
 }
 
 .main-info-experience {
     padding: 2rem;
+    background-color: rgb(243, 243, 198);
+    border-bottom: whitesmoke 0.6rem solid;
    
 }
 
@@ -102,6 +145,12 @@ h1 {
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 p {
@@ -141,3 +190,5 @@ hr {
 .column {flex-direction: column;}
 .row {flex-direction: row;}
 .text-center {text-align: center;}
+.wrap {flex-wrap: wrap;}
+.grow {flex-grow: 1;}
