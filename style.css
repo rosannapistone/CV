@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
     
 }
 
@@ -8,20 +9,19 @@ body {
     background-position: center;
     background-size: cover;
     color: black;
+    
 }
 
 
 .main-container {
-    margin-top: 7rem;
-    
-    
+    margin-top: 7rem;   
 }
 
 .profile-view {
     /*background-color: aqua;*/
-    height: 35rem;
+    /*height: 35rem;*/
     width: 20rem;
-    margin: 1rem;
+    /*margin: 1rem;*/
 }
 
 .heading-info {
@@ -61,7 +61,7 @@ body {
     background-color: rgba(167, 187, 196, 0.289);
     height: auto;
     width: 50rem;
-    margin: 1rem;
+    /*margin: 1rem;*/
 }
 
 .main-info-profile {
@@ -86,42 +86,26 @@ li {
     margin-right: 1.5rem;
 }
 
-.main-info-education {
-    /*padding: 2rem; */ 
-}
+
 
 .education-1 {
     background-color: rgb(241, 216, 241);
     border: whitesmoke 0.6rem solid;
-    height: 6rem;
+    border-collapse: collapse;
+    border-spacing: 0;
     padding: 1.4rem;
+    width: 50%;
 }
 .education-2 {
     background-color: rgb(241, 216, 241);
-    border-top: whitesmoke 0.6rem solid;
-    border-right: whitesmoke 0.6rem solid;
-    border-bottom: whitesmoke 0.6rem solid;
-    height: 6rem;
+    border: whitesmoke 0.6rem solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
     padding: 1.4rem;
+    width: 50%;
 }
 
-.education-3 {
-    background-color: rgb(241, 216, 241);
-    border-right: whitesmoke 0.6rem solid;
-    border-left: whitesmoke 0.6rem solid;
-    border-bottom: whitesmoke 0.6rem solid;
-    height: 6rem;
-    padding: 1.4rem;
-}
-
-.education-4 {
-    background-color: rgb(241, 216, 241);
-    border-bottom: whitesmoke 0.6rem solid;
-    border-right: whitesmoke 0.6rem solid;
-    border-left: whitesmoke 0.6rem solid;
-    height: 6rem;
-    padding: 1.4rem;
-}
 
 .main-info-experience {
     padding: 2rem;
@@ -140,21 +124,44 @@ li {
 }
 
 h1 {
-    font-family: 'Rock Salt', cursive;   
+    font-family: 'Rock Salt', cursive;
+    width: 15rem;  
+    text-align: center; 
 }
+
+#profession {
+    font-family: 'Rock Salt';
+    font-weight: bolder;
+    /*width: 10rem;*/
+}
+    /*white-space: nowrap;
+    overflow: hidden; 
+    animation: animated-text 4s steps(56,end) 5s 1 normal both,
+            animated-cursor 600ms steps(56,end) infinite;*/
+
+      
+/* text animation */
+/*@keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+}*/
+      
+/* cursor animations */
+/*@keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+}*/
+
+
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1rem;
 }
 
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
 
 p {
-    padding-top: 1rem;
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
@@ -163,10 +170,15 @@ hr {
 }
 
 .navigations {
-    height: 35rem;
+    /*height: 35rem;*/
     width: 5rem;
-    margin: 1rem;
-    
+    /*margin: 1rem;*/
+    position: relative;
+
+}
+
+.fixed-icons {
+    position: fixed;
 }
 
 .material-icons {
@@ -176,7 +188,7 @@ hr {
 
 .icon-profile-image {
     width: 4rem;
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -192,3 +204,61 @@ hr {
 .text-center {text-align: center;}
 .wrap {flex-wrap: wrap;}
 .grow {flex-grow: 1;}
+
+
+/* Media Queries */
+@media all and (max-width: 900px) {
+    .fixed-icons {
+    
+        position: initial;
+        
+    }
+
+    .navigations {
+        display: none;
+    }
+
+    .github {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.7rem;
+    }
+    
+    .linkedin {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.3rem;
+    }
+    .material-icons {
+        font-size: 2rem;
+        margin-right: 0.5rem;
+    }
+    .icon-profile-image {
+        width: 2rem;
+        padding-bottom: 1rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+    }
+    .main-container {
+        margin-top: 0rem; 
+        flex-wrap: wrap;
+    }
+
+    .main-content {
+        
+    }
+
+    .profile-view {
+        margin: 2rem;
+        
+    }
+    .profile-picture {
+        
+        align-items: center;
+    }
+   
+}
+
+@media all and (max-width: 480px) {
+    
+}
