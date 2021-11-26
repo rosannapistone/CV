@@ -21,6 +21,7 @@ body {
     /*background-color: aqua;*/
     /*height: 35rem;*/
     width: 20rem;
+    margin-right: 2rem;
     
 
     /*margin: 1rem;*/
@@ -69,15 +70,22 @@ body {
     /*margin: 1rem;*/
 }
 
+.profile-container h2 {
+   /* padding: 2rem;*/
+}
+
 .main-info-profile {
-    padding: 2rem;
-    background-color: rgb(220, 243, 228);
-    border-bottom: whitesmoke solid 0.6rem;
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;
+}
+
+.portfolio-container h2 {
+/* padding: 2rem;*/
 }
 
 .main-info-portfolio {
-    padding: 2rem;
-    background-color: rgb(215, 236, 243);
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;
         
 }
 
@@ -92,60 +100,49 @@ li {
 }
 
 .education-container h2{
-    padding: 2rem;
+   /* padding: 2rem;*/
     
 }
 .main-info-education {
     border-top: 0.1rem solid black;
+    padding-top: 1rem;
     
 }
 
 .education-1 {
-    padding: 0.5rem;
-    background-color:  rgba(240, 229, 216, 0.534);
-    margin: 1rem 0rem;
-   
-     
+    padding: 0.5rem;  
+    margin: 0rem 0rem;    
 }
-
 .education-2 {
-    padding: 0.5rem;
-    background-color:  rgba(240, 229, 216, 0.534);
-    margin: 1rem 0rem 1rem 1rem;
-   
-    
-    
-    
+    padding: 0.5rem;   
+    margin: 0rem 0rem 0rem 1rem;    
 }
 .education-3 {
     padding: 0.5rem;
-    background-color: rgba(240, 229, 216, 0.534);
-    margin: 1rem 0rem 1rem 1rem;
-    
-   
-   
+    margin: 0rem 0rem 0rem 1rem;
 }
 .education-4 {
     padding: 0.5rem;
-    background-color:  rgba(240, 229, 216, 0.534);
-    margin: 1rem 0rem 1rem 1rem;
-    
-    
+    margin: 0rem 0rem 0rem 1rem;   
 }
 
+.experience-container {
+
+}
 .main-info-experience {
-    padding: 2rem;
-    background-color: rgb(243, 243, 198);
-    border-bottom: whitesmoke 0.6rem solid;
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;
    
 }
 
 .main-info-interests {
-    padding: 2rem;    
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;   
 }
 
 .main-info-references {
-    padding: 2rem;
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;
         
 }
 
@@ -182,6 +179,8 @@ h1 {
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
 }
 
 
@@ -199,6 +198,7 @@ hr {
     width: 5rem;
     /*margin: 1rem;*/
     position: relative;
+    margin-left: 2rem;
 
 }
 
