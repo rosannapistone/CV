@@ -5,10 +5,10 @@
 }
 
 body { 
-   /* background-image: url(./Assets/background-image.jpg);*/
+   /* background-image: url(./Assets/blacknwhite.jpg);
     background-position: center;
     background-size: cover;
-    color: black;
+    color: white;*/
     
 }
 
@@ -21,6 +21,8 @@ body {
     /*background-color: aqua;*/
     /*height: 35rem;*/
     width: 20rem;
+    
+
     /*margin: 1rem;*/
 }
 
@@ -41,14 +43,14 @@ body {
 }
 
 .github {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     margin-right: 1rem;
 }
 
 .linkedin {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     margin-right: 0.3rem;
 }
 
@@ -57,8 +59,11 @@ body {
 
 }
 
+.heading-info-contact .material-icons {
+    font-size: 2rem;
+}
+
 .main-content {
-    background-color: rgba(167, 187, 196, 0.289);
     height: auto;
     width: 50rem;
     /*margin: 1rem;*/
@@ -86,26 +91,47 @@ li {
     margin-right: 1.5rem;
 }
 
-
+.education-container h2{
+    padding: 2rem;
+    
+}
+.main-info-education {
+    border-top: 0.1rem solid black;
+    
+}
 
 .education-1 {
-    background-color: rgb(241, 216, 241);
-    border: whitesmoke 0.6rem solid;
-    border-collapse: collapse;
-    border-spacing: 0;
-    padding: 1.4rem;
-    width: 50%;
-}
-.education-2 {
-    background-color: rgb(241, 216, 241);
-    border: whitesmoke 0.6rem solid;
-    border-collapse: collapse;
-    border-spacing: 0;
-    
-    padding: 1.4rem;
-    width: 50%;
+    padding: 0.5rem;
+    background-color:  rgba(240, 229, 216, 0.534);
+    margin: 1rem 0rem;
+   
+     
 }
 
+.education-2 {
+    padding: 0.5rem;
+    background-color:  rgba(240, 229, 216, 0.534);
+    margin: 1rem 0rem 1rem 1rem;
+   
+    
+    
+    
+}
+.education-3 {
+    padding: 0.5rem;
+    background-color: rgba(240, 229, 216, 0.534);
+    margin: 1rem 0rem 1rem 1rem;
+    
+   
+   
+}
+.education-4 {
+    padding: 0.5rem;
+    background-color:  rgba(240, 229, 216, 0.534);
+    margin: 1rem 0rem 1rem 1rem;
+    
+    
+}
 
 .main-info-experience {
     padding: 2rem;
@@ -156,7 +182,6 @@ h1 {
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 1rem;
 }
 
 
@@ -207,7 +232,7 @@ hr {
 
 
 /* Media Queries */
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
     .fixed-icons {
     
         position: initial;
@@ -245,7 +270,7 @@ hr {
     }
 
     .main-content {
-        
+        width: 100%;
     }
 
     .profile-view {
