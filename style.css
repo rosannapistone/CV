@@ -79,9 +79,7 @@ body {
     padding-top: 1rem;
 }
 
-.portfolio-container h2 {
-/* padding: 2rem;*/
-}
+
 
 .main-info-portfolio {
     border-top: 0.1rem solid black;
@@ -89,11 +87,74 @@ body {
         
 }
 
-.portfolio-links {
-    list-style-type: none;
-    margin-top: 1rem;
-    padding: 0;
+.catalogs {
+    width: 38rem;
+    height: 38rem;
+    background-color: rgba(0, 0, 255, 0.226);
 }
+
+.catalog-content {
+    width: 38rem;
+    height: 38rem;
+}
+
+.flyers {
+    width: 49rem;
+    height: 20rem;
+    background-color: rgba(219, 141, 180, 0.562);
+}
+
+.flyer-content {
+    width: 49rem;
+    height: 20rem;
+}
+
+.logotypes {
+    width: 10rem;
+    height: 38rem;
+    background-color: rgba(224, 240, 155, 0.685);
+}
+
+.logotype-content {
+    width: 10rem;
+    height: 38rem;
+}
+
+.logotypes img {
+    margin: 0.4rem;
+}
+
+#logo-weldex {
+    height: 5rem;
+    width: 7rem;   
+}
+
+#logo-muskoka {
+    height: 6rem;
+    width: 6rem;
+}
+
+#logo-salong-space {
+    height: 6rem;
+    width: 5rem;
+}
+
+#logo-oneline {
+    height: 3rem;
+    width: 9rem;
+}
+
+#logo-is-direkt {
+    height: 6rem;
+    width: 6rem;
+}
+
+#logo-film-noir {
+    height: 6rem;
+    width: 6rem;
+}
+
+
 
 .portfolio-images img {
   width: 15rem;
@@ -110,19 +171,20 @@ body {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
-    width: 15rem;
-    height:0;
-    transition: .5s ease;
+    width: 49rem;
+    height: 0;
+    transition: 1s ease;
   }
   
   .container:hover .overlay {
     bottom: 0;
     height: 100%;
   }
+
   
-  .text {
+  /*.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -132,7 +194,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+  }*/
 
 
 
@@ -141,34 +203,48 @@ body {
     padding-top: 1rem;
 }
 
-.education-1 {
-    padding: 0.5rem;   
-    width: 12rem;  
-    margin: 0.2rem;
-}
-.education-2 {
-    padding: 0.5rem;   
-    width: 12rem;  
-    margin: 0.2rem;  
-}
-.education-3 {
-    padding: 0.5rem;
-    width: 12rem; 
-    margin: 0.2rem;
-}
-.education-4 {
-    padding: 0.5rem; 
-    width: 12rem; 
-    margin: 0.2rem;  
+.medieinstitutet {
+    width: 11rem;
+    height: 11rem;
+    background-color: rgba(155, 240, 200, 0.685);
 }
 
-.experience-container {
-
+.medieinstututet-info {
+    width: 11rem;
+    height: 11rem;
 }
+
+.main-info-education .overlay {
+    width: 11rem;
+}
+
+.employments {
+    width: 24rem;
+    height: 24rem;
+    background-color: rgba(180, 89, 111, 0.685);
+}
+
+.employment-info {
+    width: 24rem;
+    height: 24rem;
+}
+
+.internships {
+    width: 24rem;
+    height: 24rem;
+    background-color: rgba(170, 123, 135, 0.685);
+}
+
+.internship-info {
+    width: 24rem;
+    height: 24rem;
+}
+
+
+
 .main-info-experience {
     border-top: 0.1rem solid black;
-    padding-top: 1rem;
-   
+    padding-top: 1rem;  
 }
 
 .main-info-interests {
@@ -220,19 +296,10 @@ h2 {
 }
 
 
-p {
-   
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-}
-
-hr {
-    margin-top: 2rem;
-}
+p {font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .navigations {
-    /*height: 35rem;*/
     width: 5rem;
-    /*margin: 1rem;*/
     position: relative;
     margin-left: 2rem;
 
@@ -269,6 +336,11 @@ hr {
 
 /* Media Queries */
 @media all and (max-width: 1000px) {
+
+    main {
+        padding: 1rem;
+    }
+
     .fixed-icons {
     
         position: initial;
