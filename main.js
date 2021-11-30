@@ -4,12 +4,12 @@ window.addEventListener('load', main);
 
 /** This is where the program begins */
 function main() {
-  writeRegard() 
-  MyFadeFunction()
+  writeRegard(); 
+  MyFadeFunction();
 }
 
-var index =0;
-var textRegard = 'Hello, I´m Rosanna';
+let index =0;
+const textRegard = 'Hello, I´m Rosanna';
 
 function writeRegard(){
     if (index < textRegard.length){
@@ -19,7 +19,7 @@ function writeRegard(){
     }   
 }
 
-var opacity = 0;
+let opacity = 0;
 
 function MyFadeFunction() {
    if (opacity<1) {

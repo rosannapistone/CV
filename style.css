@@ -95,35 +95,71 @@ body {
     padding: 0;
 }
 
-li {
-    margin-right: 1.5rem;
+.portfolio-images img {
+  width: 15rem;
+  height: auto;
 }
 
-.education-container h2{
-   /* padding: 2rem;*/
-    
+.container {
+   position: relative;
+   margin: 0.5rem;    
 }
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 15rem;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
 .main-info-education {
     border-top: 0.1rem solid black;
     padding-top: 1rem;
-    
 }
 
 .education-1 {
-    padding: 0.5rem;  
-    margin: 0rem 0rem;    
+    padding: 0.5rem;   
+    width: 12rem;  
+    margin: 0.2rem;
 }
 .education-2 {
     padding: 0.5rem;   
-    margin: 0rem 0rem 0rem 1rem;    
+    width: 12rem;  
+    margin: 0.2rem;  
 }
 .education-3 {
     padding: 0.5rem;
-    margin: 0rem 0rem 0rem 1rem;
+    width: 12rem; 
+    margin: 0.2rem;
 }
 .education-4 {
-    padding: 0.5rem;
-    margin: 0rem 0rem 0rem 1rem;   
+    padding: 0.5rem; 
+    width: 12rem; 
+    margin: 0.2rem;  
 }
 
 .experience-container {
