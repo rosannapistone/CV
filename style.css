@@ -5,8 +5,9 @@
 }
 
 body { 
-   /* background-image: url(./Assets/blacknwhite.jpg);
-    background-position: center;
+   
+   
+   /* background-position: center;
     background-size: cover;
     color: white;*/
     
@@ -14,7 +15,7 @@ body {
 
 
 .main-container {
-    margin-top: 7rem;   
+    margin-top: 4rem;   
 }
 
 .profile-view {
@@ -46,7 +47,7 @@ body {
 .github {
     width: 2rem;
     height: 2rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .linkedin {
@@ -84,40 +85,62 @@ body {
 .main-info-portfolio {
     border-top: 0.1rem solid black;
     padding-top: 1rem;
+    color: red;
+    font-weight: bolder;
+    font-size: 1.5rem;
         
 }
 
 .catalogs {
-    width: 38rem;
-    height: 38rem;
-    background-color: rgba(0, 0, 255, 0.226);
+    width: 36rem;
+    height: 40rem;
+    background-color: rgb(255, 139, 139);
+}
+
+.catalogs img {
+    margin: 0.4rem;
 }
 
 .catalog-content {
-    width: 38rem;
-    height: 38rem;
+    width: 36rem;
+    height: 40rem;
+}
+
+#weldex {
+    height: 18rem;
+    width: 14rem;
+}
+
+#lpt {
+    height: 18rem;
+    width: 14rem;
 }
 
 .flyers {
     width: 49rem;
-    height: 20rem;
-    background-color: rgba(219, 141, 180, 0.562);
+    height: 25rem;
+    background-color: rgb(255, 139, 240);
 }
 
 .flyer-content {
     width: 49rem;
-    height: 20rem;
+    height: 25rem;
 }
 
+.flyers img {
+    margin: 0.4rem;
+}
+
+
 .logotypes {
-    width: 10rem;
-    height: 38rem;
-    background-color: rgba(224, 240, 155, 0.685);
+    width: 12rem;
+    height: 40rem;
+    background-color: rgb(255, 193, 112);
 }
 
 .logotype-content {
-    width: 10rem;
-    height: 38rem;
+    width: 12rem;
+    height: 40rem;
 }
 
 .logotypes img {
@@ -156,10 +179,15 @@ body {
 
 
 
-.portfolio-images img {
-  width: 15rem;
+.catalog-content img {
+  width: 18rem;
   height: auto;
 }
+
+.flyer-content img {
+    width: 15rem;
+    height: auto;
+  }
 
 .container {
    position: relative;
@@ -203,15 +231,26 @@ body {
     padding-top: 1rem;
 }
 
-.medieinstitutet {
+.education {
     width: 11rem;
     height: 11rem;
     background-color: rgba(155, 240, 200, 0.685);
 }
 
-.medieinstututet-info {
+.education-info {
     width: 11rem;
     height: 11rem;
+}
+
+.red {
+    color: red;
+    font-weight: bolder;
+}
+
+.red-larger {
+    color: red;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .main-info-education .overlay {
