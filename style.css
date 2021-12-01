@@ -108,6 +108,10 @@ body {
     height: 40rem;
 }
 
+.catalogs .overlay{
+    width: 36rem;
+}
+
 #weldex {
     height: 18rem;
     width: 14rem;
@@ -134,12 +138,20 @@ body {
     margin: 0.4rem;
 }
 
+.flyers .overlay {
+    width: 49rem;
+}
+
 
 .logotypes {
     width: 12rem;
     height: 40rem;
     background-color: rgb(218, 146, 146);
     border-radius: 1rem;
+}
+
+.logotypes .overlay {
+    width: 12rem;
 }
 
 .logotype-content {
@@ -317,11 +329,13 @@ body {
 }
 
 .main-info-references div {
-    margin: 0.6rem;
+    margin: 1rem;
     width: 23rem;    
     background-image: url('./Assets/citat.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    
+    
 }
 
 
@@ -456,9 +470,151 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif; }
         
         align-items: center;
     }
+
+  
+
+    
    
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 840px) {
+
+    .flyers {
+        width: 36rem;
+    }
+
+    .flyer-content img {
+        width: 11rem;
+        height: auto;
+      }
+
+    .flyer-content {
+        width: 36rem;
+    }  
+    
+      .flyers .overlay {
+        width: 36rem;
+    }
+    
+}
+
+@media all and (max-width: 600px) {
+
+    .flyers {
+        width: 24rem;
+        height: 30rem;
+    }
+
+    .flyer-content img {
+        width: 10rem;
+        height: auto;
+      }
+
+    .flyer-content {
+        width: 24rem;
+    }  
+    
+      .flyers .overlay {
+        width: 24rem;
+    }
+
+    .catalogs {
+        width: 24rem;
+        height: 40rem;
+    }
+
+    .weldex-table {
+        display: none;
+    }
+
+    .lpt-table {
+        display: none;
+    }
+
+    /*.catalog-content img {
+        width: 10rem;
+        height: auto;
+      }*/
+
+    .catalog-content {
+        width: 24rem;
+    }  
+    
+      .catalogs .overlay {
+        width: 24rem;
+    }
+    
+}
+
+@media all and (max-width: 400px) {
+
+    .flyers {
+        width: 18rem;
+        height: 45rem;
+    }
+
+    .flyer-content img {
+        width: 10rem;
+        height: auto;
+      }
+
+    .flyer-content {
+        width: 18rem;
+    }  
+    
+      .flyers .overlay {
+        width: 18rem;
+    }
+
+    .catalogs {
+        width: 18rem;
+        height: 40rem;
+    }
+
+    .weldex-table {
+        display: none;
+    }
+
+    .lpt-table {
+        display: none;
+    }
+
+    /*.catalog-content img {
+        width: 10rem;
+        height: auto;
+      }*/
+
+    .catalog-content {
+        width: 18rem;
+    }  
+    
+      .catalogs .overlay {
+        width: 18rem;
+    }
+
+
+    .employments {
+        width: 18rem;
+    }
+
+    .employment-info {
+        width: 18rem;
+    }  
+    
+      .employments .overlay {
+        width: 18rem;
+    }
+
+    .internships {
+        width: 18rem;
+    }
+
+    .internship-info {
+        width: 18rem;
+    }  
+    
+      .internships .overlay {
+        width: 18rem;
+    }
     
 }
