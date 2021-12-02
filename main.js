@@ -5,7 +5,8 @@ window.addEventListener('load', main);
 /** This is where the program begins */
 function main() {
   writeRegard(); 
-  MyFadeFunction();
+  fadingProfileImage();
+  scrollDownCategory();
 }
 
 let index =0;
@@ -21,11 +22,26 @@ function writeRegard(){
 
 let opacity = 0;
 
-function MyFadeFunction() {
+function fadingProfileImage() {
    if (opacity<1) {
       opacity += .1;
-      setTimeout(function(){MyFadeFunction()},200);
+      setTimeout(function(){fadingProfileImage()},200);
    }
-   document.getElementById('profile').style.opacity = opacity;
+   document.getElementById('profile-img').style.opacity = opacity;
 }
+
+function scrollDownCategory() {
+    const navigations = document.querySelectorAll('.fixed-icons');
+
+    for (const navigation of navigations) {
+        navigation.addEventListener('click', goToCategory);
+    }
+}
+
+function goToCategory(event) {
+    const matchId = event.target.id;
+    const matchingDiv = document.querySelector('div#' + matchId);
+    matchingDiv.scrollIntoView({behavior: 'smooth'});
+}
+
 

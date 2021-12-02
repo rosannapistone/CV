@@ -18,10 +18,11 @@
     <main>
         <div id="main-container" class="main-container flex justify-center">
             <div class="profile-view flex column align-center text-center">
+                <div class="fixed-profile flex column align-center">
                 <div class="heading-info flex column align-center">
-                    <img id="profile" class="profile-picture flex column" src="./Assets/profile-picture.png">
+                    <img id="profile-img" class="profile-picture flex column" src="./Assets/profile-picture-color.png">
                     <h1 id="regard" class=""></h1>  
-                    <p id="profession" class="flex">Front End Developer Student and Communication Strategist</p>     
+                    <p id="profession" class="flex">Front End Developer Student <br> Communication Strategist</p>     
                 </div>
                 <div class="heading-info-contact flex ">
                     <img class="github" src="./Assets/github-icon.png">
@@ -30,8 +31,9 @@
                     <span class="material-icons">email</span>
                 </div>
             </div>
+            </div>
             <div class="main-content flex column">
-                <div class="profile-container">
+                <div id="profile" class="profile-container">
                 <h2 class="">Profile</h2> 
                 <div class="main-info-profile flex column">
                      
@@ -45,7 +47,7 @@
                 </div>
             </div>
 
-                <div class="portfolio-container">
+                <div id="portfolio" class="portfolio-container">
                     <h2 class="">Portfolio</h2> 
                     <div class="main-info-portfolio flex column">
                 
@@ -76,7 +78,7 @@
                             <div class="overlay">
                                 <div class="logotype-content flex wrap justify-center align-center">
                                     <img id="logo-weldex" class="flex" src="./Assets/Portfolio/Logotypes/weldex_logo.png">
-                                <img id="logo-is-direkt" class="flex" src="./Assets/Portfolio/Logotypes/is-direkt.jpg">
+                                <img id="logo-is-direkt" class="flex" src="./Assets/Portfolio/Logotypes/is-direkt.png">
                                 <img id="logo-salong-space" class="flex" src="./Assets/Portfolio/Logotypes/salong-space.png">
                                 <img id="logo-oneline" class="flex" src="./Assets/Portfolio/Logotypes/oneline.png">
                                 <img id="logo-muskoka" class="flex" src="./Assets/Portfolio/Logotypes/muskoka-logo.png">
@@ -110,7 +112,7 @@
                     </div>
                 </div>
                 
-                <div class="education-container">    
+                <div id="education" class="education-container">    
                     <h2 class="">Education</h2> 
                     <div class="main-info-education flex row justify-center align-center wrap">
                         
@@ -190,7 +192,7 @@
                     </div>
                 </div> 
 
-                <div class="experience-container"> 
+                <div id="experience" class="experience-container"> 
                     <h2 class="">Experience</h2>  
                 <div class="main-info-experience flex justify-center align-center wrap">
                         
@@ -241,22 +243,63 @@
                 </div>
                 </div>
 
-                <div class="interests-container"> 
+                <div id="interests" class="interests-container"> 
                     <h2 class="">Interests</h2> 
-                <div class="main-info-interests flex row justify-center align-center">
+                <div class="main-info-interests flex wrap justify-center column align-center">
                     
+                    
+                    <div class="no-1 flex align-center row">
+                        <h3 class="flex justify-center align-center">1</h3>
+        
+                    <p>Formula 1</p>
+                    </div>
+
+                    <div class="no-2 flex align-center row">
+                        <p>Pasta</p>
+                        <h3 class="flex justify-center align-center">2</h3>
+                    
+                    
+                </div>
                 
-                    <p class="red">Formula 1</p>
-                    <p class="red">Pasta</p>
-                    <p class="red">Camels</p>
-                    <p class="red">Puzzle</p>
-                    <p class="red">Rock 'n' Roll</p>
+                    <div class="no-3 flex align-center row">
+                        <h3 class="flex justify-center align-center">3</h3>
+                    
+                    <p>Camels</p>
+                </div>
+
+                    <div class="no-4 flex align-center row">
+                        <p>Puzzle</p>
+                        <h3 class="flex justify-center align-center">4</h3>
+                    
+                    
+                </div>
+
+
+                    <div class="no-5 flex align-center row">
+                        <h3 class="flex justify-center align-center">5</h3>
+                    
+                    <p>Suduko</p>
+                </div>
+
+                    <div class="no-6 flex align-center row">
+                        <p>Design</p>
+                        <h3 class="flex justify-center align-center">6</h3>
+                    
+                   
+                </div>
+
+
+                    <div class="no-7 flex align-center row">
+                        <h3 class="flex justify-center align-center">7</h3>
+                    
+                    <p>Rock 'n' Roll</p>
+                </div>
                     
                     
                 </div>
                 </div>
 
-                <div class="references-container">
+                <div id="references" class="references-container">
                 <h2 class="">References</h2> 
                 <div class="main-info-references flex row justify-center text-center wrap">
                     
@@ -284,12 +327,12 @@
             
             <div class="navigations flex column align-center">
                 <div class="fixed-icons flex column align-center">
-                <img class="icon-profile-image" src="./Assets/profile-picture.png">
-                <span class="material-icons">folder</span>
-                <span class="material-icons">school</span>
-                <span class="material-icons">business_center</span>
-                <span class="material-icons">interests</span>
-                <span class="material-icons">format_quote</span>
+                <img id="profile" class="icon-profile-image" src="./Assets/profile-picture-color.png">
+                <span id="portfolio" class="material-icons">folder</span>
+                <span id="education" class="material-icons">school</span>
+                <span id="experience" class="material-icons">business_center</span>
+                <span id="interests" class="material-icons">interests</span>
+                <span id="references" class="material-icons">format_quote</span>
                 </div>
             </div>
         </div>
