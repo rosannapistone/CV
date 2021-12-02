@@ -2,32 +2,26 @@
     margin: 0;
     box-sizing: border-box;
     
-}
-
-body { 
-   
-   
-   /* background-position: center;
-    background-size: cover;
-    color: white;*/
     
 }
+
+
 
 
 .main-container {
     margin-top: 4rem; 
     margin-bottom: 4rem;  
+  
 }
 
 .profile-view {
-    /*background-color: aqua;*/
-    /*height: 35rem;*/
+    
     width: 20rem;
     margin-right: 2rem;
     position: relative;
     
 
-    /*margin: 1rem;*/
+   
 }
 
 .fixed-profile {
@@ -56,10 +50,21 @@ body {
     margin-right: 0.5rem;
 }
 
+.github:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
 .linkedin {
     width: 2rem;
     height: 2rem;
     margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    background-color: red;
+    border-radius: 50%;
 }
 
 .heading-info-contact p {
@@ -74,17 +79,19 @@ body {
 .main-content {
     height: auto;
     width: 50rem;
-    /*margin: 1rem;*/
+    
 }
 
-.profile-container h2 {
-   /* padding: 2rem;*/
-}
+/*.profile-container p {
+    text-shadow: rgb(255, 0, 191) 0px 0px 40px, #f8a1d1 0px 0px 40px;
+}*/
 
 .main-info-profile {
     border-top: 0.1rem solid black;
     padding-top: 1rem;
 }
+
+
 
 
 
@@ -346,13 +353,14 @@ body {
 
 
 h1 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Major Mono Display', monospace;
     width: 15rem;  
     text-align: center; 
+    color: rgb(255, 72, 231);
 }
 
 #profession {
-    font-family: 'Rock Salt';
+    font-family: 'Major Mono Display', monospace;
     font-weight: bolder;
     /*width: 10rem;*/
 }
@@ -377,9 +385,12 @@ h1 {
 
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Major Mono Display', monospace;
     padding-bottom: 1rem;
     padding-top: 3rem;
+    
+
+
 }
 
 
@@ -392,8 +403,13 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 }
 
+
 .fixed-icons {
     position: fixed;
+}
+
+.fixed-icons:hover {
+    cursor: default;
 }
 
 .material-icons {
@@ -401,9 +417,18 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif; }
     margin-bottom: 1rem;
 }
 
+.material-icons:hover {
+    color: red;
+}
+
 .icon-profile-image {
     width: 4rem;
     margin-bottom: 1rem;
+}
+
+.icon-profile-image:hover {
+    border: solid 0.4rem red;
+    border-radius: 50%;
 }
 
 .main-info-interests h3 {
@@ -430,6 +455,10 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif; }
     width: 7rem;
     text-align: center;
     color: red;
+}
+
+.main-info-references h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
