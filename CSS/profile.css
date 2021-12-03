@@ -1,0 +1,67 @@
+/*Heading info profile*/
+.profile-view {
+    width: 20rem;
+    margin-right: 2rem;
+    position: relative;  
+}
+
+.fixed-profile {position: fixed;}
+
+.heading-info {padding-bottom: 2rem;}
+
+.heading-info p {padding-top: 1rem;}
+
+.profile-picture {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.github {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.github:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.linkedin {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.heading-info-contact p {
+    margin-left: 1rem;
+
+}
+
+.heading-info-contact .material-icons {
+    font-size: 2rem;
+    color: black;
+}
+
+#profession {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bolder;
+}
+
+/* Profile */
+.main-content {
+    height: auto;
+    width: 50rem;    
+}
+
+.main-info-profile {
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;
+}

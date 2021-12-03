@@ -1,0 +1,32 @@
+.main-info-experience {
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;  
+}
+
+.employments {
+    width: 24rem;
+    height: 24rem;
+    background-color: rgba(180, 89, 111, 0.685);
+    border-radius: 1rem;
+}
+
+.employment-info {
+    width: 24rem;
+    height: 24rem;
+}
+
+.employments .overlay {width: 24rem;}
+
+.internships {
+    width: 24rem;
+    height: 24rem;
+    background-color: rgba(170, 123, 135, 0.685);
+    border-radius: 1rem;
+}
+
+.internship-info {
+    width: 24rem;
+    height: 24rem;
+}
+
+.internships .overlay {width: 24rem;}

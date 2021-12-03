@@ -1,0 +1,163 @@
+@media all and (max-width: 1200px) {
+
+    main {padding: 1rem;}
+
+    .fixed-profile {position: inherit;}
+
+    .navigations {display: none;}
+
+    .github {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.7rem;
+    }
+    
+    .linkedin {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.3rem;
+    }
+
+    .material-icons {
+        font-size: 2rem;
+        margin-right: 0.5rem;
+    }
+
+    .icon-profile-image {
+        width: 2rem;
+        padding-bottom: 1rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .main-container {
+        margin-top: 0rem; 
+        flex-wrap: wrap;
+    }
+
+    .main-content {width: 100%;}
+
+    .profile-view {margin: 2rem;}
+
+    .profile-picture {align-items: center;}
+
+    .main-info-references {margin-bottom: 3rem;} 
+}
+
+@media all and (max-width: 840px) {
+
+    .flyers {width: 36rem;}
+
+    .flyer-content img {
+        width: 11rem;
+        height: auto;
+    }
+
+    .flyer-content {width: 36rem;}  
+    
+    .flyers .overlay {width: 36rem;}
+
+    .logotypes {
+        width: 36rem;
+        height: 20rem;
+    }
+
+    .logotype-content {
+        width: 36rem;
+        height: 20rem;
+    }
+
+    .logotypes .overlay {width: 36rem;}
+}
+
+@media all and (max-width: 600px) {
+
+    .flyers {
+        width: 24rem;
+        height: 30rem;
+    }
+
+    .flyer-content img {
+        width: 10rem;
+        height: auto;
+      }
+
+    .flyer-content {width: 24rem;}  
+    
+    .flyers .overlay {width: 24rem;}
+
+    .catalogs {
+        width: 24rem;
+        height: 40rem;
+    }
+
+    .weldex-table {display: none;}
+
+    .lpt-table {display: none;}
+
+    .catalog-content {width: 24rem;}  
+    
+    .catalogs .overlay {width: 24rem;}
+
+    .logotypes {
+        width: 24rem;
+        height: 20rem;
+    }
+
+    .logotype-content {
+        width: 24rem;
+        height: 20rem;
+    }
+
+    .logotypes .overlay {width: 24rem;}   
+}
+
+@media all and (max-width: 400px) {
+
+    .flyers {
+        width: 18rem;
+        height: 45rem;
+    }
+
+    .flyer-content img {
+        width: 10rem;
+        height: auto;
+      }
+
+    .flyer-content {width: 18rem;}  
+    
+    .flyers .overlay {width: 18rem;}
+
+    .catalogs {
+        width: 18rem;
+        height: 40rem;
+    }
+
+    .catalog-content {width: 18rem;}  
+    
+    .catalogs .overlay {width: 18rem;}
+
+    .employments {width: 18rem;}
+
+    .employment-info {width: 18rem;}  
+    
+    .employments .overlay {width: 18rem;}
+
+    .internships {width: 18rem;}
+
+    .internship-info {width: 18rem;}  
+    
+    .internships .overlay {width: 18rem;}
+
+    .logotypes {
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .logotype-content {
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .logotypes .overlay {width: 18rem;}    
+}

@@ -1,0 +1,19 @@
+/* Reusable classes */
+.flex {display: flex;}
+.justify-center {justify-content: center;}
+.align-center {align-items: center;}
+.justify-between {justify-content: space-between;}
+.column {flex-direction: column;}
+.row {flex-direction: row;}
+.text-center {text-align: center;}
+.wrap {flex-wrap: wrap;}
+.grow {flex-grow: 1;}
+.red {
+    color: red;
+    font-weight: bolder;
+}
+.red-larger {
+    color: red;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}

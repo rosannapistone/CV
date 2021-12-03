@@ -1,0 +1,108 @@
+/* Portfolio*/
+
+.main-info-portfolio {
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;
+    color: red;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.catalogs {
+    width: 36rem;
+    height: 40rem;
+    background-color: rgb(255, 139, 139);
+    border-radius: 1rem;
+}
+
+.catalogs img {margin: 0.4rem;}
+
+.catalog-content {
+    width: 36rem;
+    height: 40rem;
+}
+
+.catalog-content img {
+    width: 18rem;
+    height: auto;
+  }
+
+.catalogs .overlay{width: 36rem;}
+
+#weldex {
+    height: 18rem;
+    width: 14rem;
+}
+
+#lpt {
+    height: 18rem;
+    width: 14rem;
+}
+
+.flyers {
+    width: 49rem;
+    height: 25rem;
+    background-color: rgb(255, 139, 240);
+    border-radius: 1rem;
+}
+
+.flyer-content {
+    width: 49rem;
+    height: 25rem;
+}
+
+.flyer-content img {
+    width: 15rem;
+    height: auto;
+  }
+
+.flyers img {margin: 0.4rem;}
+
+.flyers .overlay {width: 49rem;}
+
+
+.logotypes {
+    width: 12rem;
+    height: 40rem;
+    background-color: rgb(218, 146, 146);
+    border-radius: 1rem;
+}
+
+.logotypes .overlay {width: 12rem;}
+
+.logotype-content {
+    width: 12rem;
+    height: 40rem;
+}
+
+.logotypes img {margin: 0.4rem;}
+
+#logo-weldex {
+    height: 5rem;
+    width: 7rem;   
+}
+
+#logo-muskoka {
+    height: 6rem;
+    width: 6rem;
+}
+
+#logo-salong-space {
+    height: 6rem;
+    width: 5rem;
+}
+
+#logo-oneline {
+    height: 3rem;
+    width: 9rem;
+}
+
+#logo-is-direkt {
+    height: 6rem;
+    width: 6rem;
+}
+
+#logo-film-noir {
+    height: 6rem;
+    width: 6rem;
+}

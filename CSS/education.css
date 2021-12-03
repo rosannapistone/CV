@@ -1,0 +1,18 @@
+.main-info-education {
+    border-top: 0.1rem solid black;
+    padding-top: 1rem;
+}
+
+.education {
+    width: 11rem;
+    height: 11rem;
+    background-color: rgba(155, 240, 200, 0.685);
+    border-radius: 1rem;
+}
+
+.education-info {
+    width: 11rem;
+    height: 11rem;
+}
+
+.education .overlay {width: 11rem;}

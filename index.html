@@ -10,7 +10,16 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="//fonts.googleapis.com/css2?family=Passion+One&family=Major+Mono+Display&display=swap" rel="stylesheet">
       <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/reusable.css">
+    <link rel="stylesheet" href="./CSS/profile.css">
+    <link rel="stylesheet" href="./CSS/navigation.css">
+    <link rel="stylesheet" href="./CSS/portfolio.css">
+    <link rel="stylesheet" href="./CSS/education.css">
+    <link rel="stylesheet" href="./CSS/experience.css">
+    <link rel="stylesheet" href="./CSS/interests.css">
+    <link rel="stylesheet" href="./CSS/references.css">
+    <link rel="stylesheet" href="./CSS/media-queries.css">
     <script src="./main.js"></script>
 </head>
 <body>
@@ -19,46 +28,49 @@
         <div id="main-container" class="main-container flex justify-center">
             <div class="profile-view flex column align-center text-center">
                 <div class="fixed-profile flex column align-center">
-                <div class="heading-info flex column align-center">
-                    <img id="profile-img" class="profile-picture flex column" src="./Assets/profile-picture-color.png">
-                    <h1 id="regard" class=""></h1>  
-                    <p id="profession" class="flex red">Front End Developer Student <br> Communication Strategist</p>     
-                </div>
-                <div class="heading-info-contact flex ">
-                    <img class="github" src="./Assets/github-icon.png">
-                    <img class="linkedin" src="./Assets/linkedin_black_logo_icon.png">
-                    <span class="material-icons">phone_iphone</span>
-                    <span class="material-icons">email</span>
+                    <div class="heading-info flex column align-center">
+                        <img id="profile-img" class="profile-picture flex column" src="./Assets/Other-images/profile-picture-color.png">
+                        <h1 id="regard" class=""></h1>  
+                        <p id="profession" class="flex red">Front End Developer Student <br> Communication Strategist</p>     
+                    </div>
+                    <div class="heading-info-contact flex ">
+                        <a href="https://github.com/rosannapistone"target="_blank">
+                            <img class="github" src="./Assets/Icons/github-icon.png">
+                        </a>
+                        <a href="https://www.linkedin.com/in/rosanna-pistone/"target="_blank">
+                            <img class="linkedin" src="./Assets/Icons/linkedin_black_logo_icon.png">
+                        </a>
+                        <a href="tel:+46709660101">
+                            <span class="material-icons">phone_iphone</span>
+                        </a>
+                        <a href="mailto:rosanna@pistone.se">
+                            <span class="material-icons">email</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            </div>
+
             <div class="main-content flex column">
                 <div id="profile" class="profile-container">
-                <h2 class="">Profile</h2> 
-                <div class="main-info-profile flex column">
-                     
-                    <p> I got a bachelor's degree in media and communication science with focus on
+                    <h2 class="">Profile</h2> 
+                    <div class="main-info-profile flex column">
+                        <p> I got a bachelor's degree in media and communication science with focus on
                         strategic communication. With that knowledge and experience in my pocket, I moved on to a - for the topic - relevant further education; right now I'm studying to be a Front End Developer.
                         I respect the power of all communications, everything from texts to grimaces. I'm curious about the possibilities and challenges of digitalization - the society and its functions are going through a change digitally. How should we succeed in including everyone? Therefore, I have a great interest in UX and graphic design. To make people actually adopt and use new products - the products needs to be user-friendly, otherwise people will be excluded.
                         <br><br>
                         I have a great work ethic and a willingness to learn and share knowledge with any team. I value a strong corporate culture highly as I know common values, strategies and core values ​​are followed by a pleasant working climate in general and profitability in particular. The goal is that everyone in the workplace should not only know what they're doing but why they're doing it.
-                
-                    </p> 
+                        </p> 
+                    </div>
                 </div>
-            </div>
 
                 <div id="portfolio" class="portfolio-container">
                     <h2 class="">Portfolio</h2> 
                     <div class="main-info-portfolio flex column">
-                
-
-                    <div class="portfolio-images flex wrap justify-center">
-
-                        
-                        <div class="container flex">
-                            <div class="catalogs flex justify-center align-center">
-                            <p>Catalogs</p>
-                            <div class="overlay">
+                        <div class="portfolio-images flex wrap justify-center">
+                            <div class="container flex">
+                                <div class="catalogs flex justify-center align-center">
+                                    <p>Catalogs</p>
+                                        <div class="overlay">
                                 <div class="catalog-content flex wrap justify-center align-center">
                                     <img id="weldex" class="flex" src="./Assets/Portfolio/Catalogs/weldex_katalog.jpg">
                                     <img class="weldex-table flex" src="./Assets/Portfolio/Catalogs/weldex-open-catalog.jpg">
@@ -167,27 +179,8 @@
                     
                     
                     
-                     <!--  <div class="education-1 flex column">
-                    <p><b>Medieinstitutet</b></p>
-                    <br>
-                    <p>Front End Developer | 2021-active</p>
-                    </div>
-                    <div class="education-2 flex column">
-                        <p><b>Kristianstad University</b></p>
-                        <br>
-                        <p>Graphic design | 2019</p>
-                    </div>
-
-                    <div class="education-3 flex column">
-                        <p><b>Uppsala University</b></p>
-                        <br>
-                        <p>Business ethics | 2019</p>
-                        </div>
-                        <div class="education-4 flex column">
-                        <p><b>Umeå University</b></p>
-                        <br>
-                        <p>Media and communication science - strategic communication | 2015 - 2018</p>
-                        </div> -->
+    
+                        
         
                     </div>
                 </div> 
@@ -327,7 +320,7 @@
             
             <div class="navigations flex column align-center">
                 <div class="fixed-icons flex column align-center">
-                <img id="profile" class="icon-profile-image" src="./Assets/profile-picture-color.png">
+                <img id="profile" class="icon-profile-image" src="./Assets/Other-images/profile-picture-color.png">
                 <span id="portfolio" class="material-icons">folder</span>
                 <span id="education" class="material-icons">school</span>
                 <span id="experience" class="material-icons">business_center</span>

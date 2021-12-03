@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;       
+}
+
+/* Font style*/
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    width: 15rem;  
+    text-align: center; 
+    color: rgb(255, 72, 231);
+}
+
+h2 {
+    font-family: 'Major Mono Display', monospace;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+p {font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/* Main */
+.main-container {
+    margin-top: 4rem; 
+    margin-bottom: 4rem;    
+}
+
+/* Overlay default style*/
+.container {
+    position: relative;
+    margin: 0.5rem;    
+ }
+ 
+ .overlay {
+     position: absolute;
+     bottom: 100%;
+     left: 0;
+     right: 0;
+     background-color: white;
+     overflow: hidden;
+     width: 49rem;
+     height: 0;
+     transition: 1s ease;
+}
+   
+.container:hover .overlay {
+     bottom: 0;
+     height: 100%;
+} 

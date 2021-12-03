@@ -1,0 +1,26 @@
+.navigations {
+    width: 5rem;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.fixed-icons {position: fixed;}
+
+.fixed-icons:hover {cursor: default;}
+
+.material-icons {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.material-icons:hover {color: red;}
+
+.icon-profile-image {
+    width: 4rem;
+    margin-bottom: 1rem;
+}
+
+.icon-profile-image:hover {
+    border: solid 0.4rem red;
+    border-radius: 50%;
+}
