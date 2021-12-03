@@ -7,6 +7,7 @@ function main() {
   writeRegard(); 
   fadingProfileImage();
   scrollDownCategory();
+  
 }
 
 let index =0;
@@ -43,5 +44,54 @@ function goToCategory(event) {
     const matchingDiv = document.querySelector('div#' + matchId);
     matchingDiv.scrollIntoView({behavior: 'smooth'});
 }
+
+
+/* function showContentOnClick() {
+    const container = document.querySelectorAll('container');
+    console.log(container);
+    
+}
+
+
+
+showContentOnClick() */
+
+
+/*const contentContainer = document.getElementById('weldex-logo');
+console.log ('contentContainer')
+
+contentContainer.addEventListener('click', function() {
+    
+})*/
+
+
+/* document.getElementsByClassName('.container').addEventListener('click', function (event) {
+    console.log("You finally clicked without jQuery");
+  }); */
+
+  /*const contentContainer = document.getElementById('weldex');
+
+  contentContainer.addEventListener('click', function () {
+      console.log('Hi!');
+  });*/
+
+
+/* const contentContainer = document.querySelectorAll('.container');
+
+function showContentOnClick() {
+    const contentContainer = document.querySelectorAll('.container');
+    
+    console.log('function')
+    console.log('contentContainer', contentContainer)
+    
+    contentContainer.addEventListener('click', slideContent);
+}
+
+function slideContent(div) {
+    
+
+
+} */
+
 
 
