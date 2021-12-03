@@ -250,7 +250,7 @@
     font-size: 1.5rem;
 }
 
-.main-info-education .overlay {
+.education .overlay {
     width: 11rem;
 }
 
@@ -266,6 +266,12 @@
     height: 24rem;
 }
 
+.employments .overlay {
+    width: 24rem;
+}
+
+
+
 .internships {
     width: 24rem;
     height: 24rem;
@@ -278,6 +284,9 @@
     height: 24rem;
 }
 
+.internships .overlay {
+ width: 24rem;
+}
 
 
 .main-info-experience {
