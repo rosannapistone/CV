@@ -7,7 +7,8 @@ function main() {
   writeRegard(); 
   fadingProfileImage();
   scrollDownCategory();
-  
+  showContentOnClick(x);
+  /* showContentOnClick(); */
 }
 
 let index =0;
@@ -46,15 +47,77 @@ function goToCategory(event) {
 }
 
 
-/* function showContentOnClick() {
-    const container = document.querySelectorAll('container');
-    console.log(container);
+/*function showContentOnClick() {
+    const contentContainer = document.getElementsByClassName("container");
+
+    for (const contain of containers) {
+        contain.addEventListener('click', showContent)
+    }
+}
+
+function showContent(event) {
+
+}*/
+
+
+let x = window.matchMedia("(max-width: 1000px)")
+function showContentOnClick(x) {
     
+    if (x.matches) {
+    const contentContainer = document.getElementsByClassName("container");
+    console.log("function");
+   
+    for (let i = 0; i < contentContainer.length; i++) {
+      contentContainer[i].addEventListener("click", function (event) {
+        event.target.children[1].style.bottom = "0";
+        event.target.children[1].style.height = "100%";
+      });
+    }
+  }
 }
 
 
+/* showContentOnClick(x); */
 
-showContentOnClick() */
+
+
+
+/* function showContentOnClick() {
+    const contentContainer = document.getElementsByClassName("container");
+    console.log("function");
+   
+    for (let i = 0; i < contentContainer.length; i++) {
+      contentContainer[i].addEventListener("click", function (event) {
+        event.target.children[1].style.bottom = "0";
+        event.target.children[1].style.height = "100%";
+      });
+    }
+   } */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+/* function showContentOnClick() {
+    const container = document.querySelectorAll('container');
+    console.log(container);
+
+    container.addEventListener('click', slideContent)
+    
+} */
+
+
+
+/* showContentOnClick()
+slideContent() */
 
 
 /*const contentContainer = document.getElementById('weldex-logo');
