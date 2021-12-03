@@ -1,5 +1,10 @@
 @media all and (max-width: 1200px) {
 
+    .container:active .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+
     main {padding: 1rem;}
 
     .fixed-profile {position: inherit;}
